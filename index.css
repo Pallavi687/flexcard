@@ -1,0 +1,125 @@
+#mainnav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    background-color: #201e1e;
+    color: white;
+  }
+
+  #leftnav {
+    display: flex;
+    justify-content: space-around;
+ 
+  }
+
+  #rightnav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #leftnav > div {
+    padding-top: 12px;
+    padding-left: 10px;
+    margin: 2px;
+    height: 20px;
+  }
+
+  #rightnav > div {
+    margin: 2px;
+    padding-right: 10px;
+    padding-top: 12px;
+    height: 20px;
+  }
+
+  #login,
+  #signup {
+    cursor: pointer;
+  }
+
+  #bannername {
+    font-family: sans-serif;
+    font-size: 40px;
+  }
+
+  #flexholder {
+    display: flex;
+  
+   justify-content: space-between;
+  }
+  #flexcard {
+    height: 280px;
+    width: 300px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  #signup{
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+
+  #login{
+    border-radius: 5px;
+  }
+
+  #flexcard > img {
+    height: 130px;
+    width: 100%;
+    margin: auto;
+  }
+
+  #flexcard >p {
+    margin: 5px;
+  }
+
+  #buttonseperator {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #buttonseperator :nth-child(1) 
+  {
+    display: flex;
+  }
+
+  #mainfooter{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color: #777777;
+  }
+
+  #mainfooter >div{
+    padding: 15px;
+  }
+
+  #firstfooter >input{
+     width: 250px;
+  }
+
+  #firstfooter {
+    display: flex;
+  }
+  #firstfooter > img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+ 
+  }
+  #secondfooter >input{
+     width: 250px;
+  }
+
+  #secondfooter >button{
+    background-color: #777777;
+    border: 2px solid white;
+    color: white;
+  }
